@@ -1,0 +1,2 @@
+#define OSDP_VERIFIED_VERSION "1.40-2"
+
