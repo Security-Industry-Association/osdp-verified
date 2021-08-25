@@ -1,5 +1,6 @@
-1.53-1
-Added all the NAK codes in SIA OSDP 2.2
+2.0.0-2
+
+sync with full set of test stand tools.
 
 The optional/required column is known to be outdated. Yes an update
 is in process.
