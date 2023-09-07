@@ -1,7 +1,7 @@
 ---
 title: OSDP Verified Test Descriptions
 author: SIA OSDP Working Group
-date: August 30, 2023
+date: September 6, 2023
 header-includes: |
   \usepackage{fancyhdr}
   \pagestyle{fancy}
