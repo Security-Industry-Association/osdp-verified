@@ -5,6 +5,8 @@ Test 999-99-99 Test Description Template
 
 test
 
+See github for revision history ("OSDP Verified") and for the conformance tool ("libosdp-conformance".) 
+
 PD Action
 ---------
 
@@ -52,6 +54,37 @@ Criteria
 |                             |         |
 | Extedended Read/Write (ACU) | N/A     |
 |                             |         |
+
+or if all required...
+
+| Profile                    | Requirement |
+| -------                    | ----------- |
+|         |             |
+| Basic OSDP (PD)             | Required |
+|                             |          |
+| Basic OSDP (ACU)            | Required |
+|                             |          |
+| Secure Channel (PD)         | Required |
+|                             |          |
+| Secure Channel (ACU)        | Required |
+|                             |          |
+| BIO Match (PD)              | Required |
+|                             |          |
+| BIO Match (ACU)             | Required |
+|                             |          |
+| BIO Read (PD)               | Required |
+|                             |          |
+| BIO Read (ACU)              | Required |
+|                             |          |
+| Extended Packet Mode (PD)   | Required |
+|                             |          |
+| Extended Packet Mode (ACU)  | Required |
+|                             |          |
+| Extended Read/Write (PD)    | Required |
+|                             |          |
+| Extedended Read/Write (ACU) | Required |
+|                             |          |
+
 
 Test Results (JSON Tags)
 ------------------------
