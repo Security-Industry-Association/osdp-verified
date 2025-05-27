@@ -1,0 +1,10 @@
+
+$folderPath = "C:\Users\IDmachines-Bench\Documents\pandoc-test\070"
+$docxFiles = Get-ChildItem -Path $folderPath -Filter *.docx
+
+foreach ($file in $docxFiles) {
+    $outputFile = [System.IO.Path]::ChangeExtension($file.FullName, ".md")
+    pandoc $file.FullName -f docx -t markdown -o $outputFile
+}
+
+Write-Host "Conversion complete!"
