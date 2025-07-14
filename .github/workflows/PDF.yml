@@ -13,5 +13,9 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+    - name: Install pandoc
+      run: |
+          wget https://github.com/jgm/pandoc/releases/download/3.1.9/pandoc-3.1.9-linux-amd64.tar.gz
+          tar xvzf pandoc-3.1.9-linux-amd64.tar.gz --strip-components 1 -C /usr/local/
     - name: make
       run: make all
