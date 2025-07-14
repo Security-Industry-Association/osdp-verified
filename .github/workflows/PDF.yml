@@ -14,8 +14,11 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     
-    - name: Install pandoc
-      run: sudo apt-get update && sudo apt-get install -y pandoc
+    - name: Install pandoc and LaTeX
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y pandoc texlive-latex-base texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended
+      
 
     - name: make
       run: make all
