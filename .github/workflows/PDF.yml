@@ -17,7 +17,7 @@ jobs:
     - name: Install pandoc and LaTeX
       run: |
         sudo apt-get update
-        sudo apt-get install -y pandoc texlive-full      
+        sudo apt-get install -y pandoc texlive-latex-base texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended   
 
     - name: make
       run: make all
