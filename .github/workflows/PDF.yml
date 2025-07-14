@@ -1,4 +1,4 @@
-name: C/C++ CI
+name: Build PDF
 
 on:
   push:
@@ -22,3 +22,9 @@ jobs:
 
     - name: make
       run: make all
+
+    - name: Upload PDF as artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: generated-pdf
+        path: osdp-verified-test-descriptions.pdf 
