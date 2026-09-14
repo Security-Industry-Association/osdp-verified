@@ -1,0 +1,26 @@
+  OUI      Name
+  -------- -----------------------------------------
+  00068E   HID Corporation
+  0017FC   Suprema Inc.
+  001BC2   ICT
+  0060EE   Apollo
+  2C17E0   SYSTEMES ET TECHNOLOGIES IDENTIFICATION
+  48B313   Idesco
+  509A46   Safetrust
+  54098D   Deister Electronic GmbH
+  58FD20   SystemsHouse
+  5c2623   WaveLynx Technologies Corporation
+  6C4E86   Third Millenium Systems Ltd.
+  9CF61A   Carrier Fire and Security
+  AD0D38   Farpointe Data
+  CA446C   Cypress Integration
+  DC99FE   Armatura
+  FA1466   Allegion PLC
+           Honeywell
+           Brivo
+           Alarm.com
+           JCI
+           Hanwha
+           IrisID
+           Axis
+           Rosslare
